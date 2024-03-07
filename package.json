@@ -1,0 +1,21 @@
+{
+  "name": "gherkinesque-playwright",
+  "version": "1.0.0",
+  "description": "Fabulously-organized tests without gherkin parsers for BDD.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "bun tests-unit/test.ts && bun run playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.21",
+    "bun-types": "latest",
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
